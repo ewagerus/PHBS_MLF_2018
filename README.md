@@ -1,6 +1,6 @@
 # _Prediction of Automotive Accident Severity_ 
 
-This is a project prepared for the needs of Machine Learning for Finance class taught by prof. Jaehyuk Choi at Peking University HSBC Business School Shenzhen, China.
+This is a project prepared for the needs of [Machine Learning for Finance](https://github.com/PHBS/2018.M1.MLF) class taught by prof. Jaehyuk Choi at Peking University HSBC Business School Shenzhen, China.
 
 **TEAM MEMBERS**:
 
