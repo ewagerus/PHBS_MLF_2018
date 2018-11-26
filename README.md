@@ -4,9 +4,9 @@ This is a project prepared for the needs of [Machine Learning for Finance](https
 
 **TEAM MEMBERS**:
 
-[Arianna MISERICORDIA](https://github.com/ariannamisericordia) 
-
 [Ewa GERUS](https://github.com/ewagerus)  
+
+[Arianna MISERICORDIA](https://github.com/ariannamisericordia) 
 
 [Noam PELEG](https://github.com/Noam-Peleg) 
 
