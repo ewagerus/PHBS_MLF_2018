@@ -1,4 +1,4 @@
-# PHBS_MLF_2018
+# _Prediction of Automotive Accident Severity_ 
 
 This is a project prepared for the needs of Machine Learning for Finance class taught by prof. Jaehyuk Choi at Peking University HSBC Business School Shenzhen, China.
 
@@ -12,15 +12,17 @@ This is a project prepared for the needs of Machine Learning for Finance class t
 
 [Lillah BENARD](https://github.com/Lillahbenard) 
 
-# _Prediction of Automotive Accident Severity_ 
-
 **MOTIVATION**:
 
 The motivation behind our research is the understanding of specific conditions that affect the severity of an automotive accident. The purpose of this project is to highlight impactful variables while operating a vehicle in order to improve accident prevention.
 
 **GOAL**: 
 
-We executed a classification based on U.K. road accidents ranging from 2014 to 2016 using the methodologies covered in class (Logistic Regression, Neural network, KNN, Decision tree). Our classification specifies the impact of certain features on car wreckage. 
+We executed a classification based on U.K. road accidents ranging from 2014 to 2016 using the methodologies covered in class (Logistic Regression, Neural Network, KNN, Decision Tree, Random Forest). Our classification specifies the impact of certain features on car wreckage. 
+
+**DATASET SOURCE**:
+
+https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-accidents
 
 **DATA SOURCE**: 
 
@@ -45,10 +47,6 @@ Accidents are recorded according to these features:
 *  Sex of casualty
 *  Age of casualty
 *  Type of vehicle
-
-**DATASET SOURCE**:
-
-https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-accidents
 
 **METHODOLOGY**: 
 
@@ -93,7 +91,7 @@ We utilize the first 12 components as they make up approximately 90% of the vari
 
 **_III. Prediction_**:
 
-Accuracy of each of the following methods were examined to choose the best classifier for reaching our goal. To implement the methods mentioned below, scikit-learn and Keras were used. 
+Accuracy of each of the following methods were examined to choose the best classifier for reaching our goal. To implement the methods mentioned below, Scikit-Learn and Keras were used. 
 
 To avoid overfitting, we used K-fold cross-validation method with ten splits. 
 
@@ -103,7 +101,7 @@ To avoid overfitting, we used K-fold cross-validation method with ten splits.
 
 ![kfold decision tree](https://user-images.githubusercontent.com/43052624/48170888-87be4b80-e334-11e8-8302-7c8437f7903f.png)
 
-- K-fold best mean accuracy is 73.95% (standard deviation 2.64%) for a decision tree depth equal to six.
+- The mean accuracy is 73.95% (standard deviation 2.64%) for a decision tree depth equal to six.
 
 ![decision tree](https://user-images.githubusercontent.com/43052624/48113500-116b0c00-e296-11e8-8a0f-52ce61ae41cc.png)
 
@@ -129,7 +127,7 @@ To avoid overfitting, we used K-fold cross-validation method with ten splits.
 
 ![kfold knn](https://user-images.githubusercontent.com/43052624/48171438-dcfb5c80-e336-11e8-82e7-7f259129e643.png)
 
-- K-fold best mean accuracy is 71.37% (standard deviation 2.77%) for number of neighbors equal to five.
+- The best mean accuracy is 71.37% (standard deviation 2.77%) for number of neighbors equal to five.
 
 **Logistic Regression**
 
@@ -152,6 +150,4 @@ _without PCA_
 
 ![sans titre](https://user-images.githubusercontent.com/43052624/48349868-71abe480-e6c0-11e8-8f7b-f9a67c918797.png)
 
-The best model is the decision tree with a mean accuracy of 73.95%. 
-
-We can conclude that the three most important features that affect the severity of an automotive accident are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
+The best model performance was found for the decision tree with a mean accuracy of 73.95%. 
