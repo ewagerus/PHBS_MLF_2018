@@ -146,7 +146,7 @@ _without PCA_
 ![logistic regression](https://user-images.githubusercontent.com/43052624/48206324-1cfb2780-e3a9-11e8-802f-514365f7be4f.png)
 
 
-**_IV CONCLUSION_**: 
+**_IV. CONCLUSION_**: 
 
 ![sans titre](https://user-images.githubusercontent.com/43052624/48349868-71abe480-e6c0-11e8-8f7b-f9a67c918797.png)
 
