@@ -1,12 +1,16 @@
 # PHBS_MLF_2018
 
-[Arianna MISERICORDIA](https://github.com/ariannamisericordia) 1802010234
+This is a project prepared for the needs of Machine Learning for Finance class taught by prof. Jaehyuk Choi at Peking University HSBC Business School Shenzhen, China.
 
-[Ewa GERUS](https://github.com/ewagerus)  1802010260
+**TEAM MEMBERS**:
 
-[Noam PELEG](https://github.com/Noam-Peleg) 1802010275
+[Arianna MISERICORDIA](https://github.com/ariannamisericordia) 
 
-[Lillah BENARD](https://github.com/Lillahbenard) 1802010264
+[Ewa GERUS](https://github.com/ewagerus)  
+
+[Noam PELEG](https://github.com/Noam-Peleg) 
+
+[Lillah BENARD](https://github.com/Lillahbenard) 
 
 # _Prediction of Automotive Accident Severity_ 
 
